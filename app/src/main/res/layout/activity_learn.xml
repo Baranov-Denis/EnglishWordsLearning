@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/learn_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow_dark"
+    android:orientation="vertical"
+    tools:context=".LearnActivity">
+
+  <!--  <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellow_dark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextColor="@color/white" />
+
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/button_back"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_for_learn_background_left"
+                    android:paddingRight="5dp"
+android:src="@drawable/back_arrow"
+                    />
+                <!-- android:src="@drawable/back_arrow_20_new"-->
+                <TextView
+                    android:id="@+id/target_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="60dp"
+                    android:gravity="center"
+                    android:text="every single word most death will"
+                    android:textColor="@color/yellow_text_dark"
+                  android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/count_of_target_word_layout"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignEnd="@+id/target_word"
+                    android:layout_alignRight="@+id/target_word"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="-65dp"
+                    android:layout_marginRight="312dp"
+                    android:background="@drawable/button_for_learn_background_right">
+
+                    <TextView
+                        android:id="@+id/count_of_target_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingEnd="0dp"
+                        android:paddingRight="0dp"
+                        android:text="59"
+                        android:textColor="@color/yellow_text_dark"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--  <LinearLayout
+              android:layout_width="34dp"
+              android:layout_height="35dp">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:text="59" />
+
+          </LinearLayout>-->
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_button_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_button_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_button_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_button_background" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_button_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_button_background" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_button_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_button_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_button_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_button_background" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

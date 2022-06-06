@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.englishwordslearning">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/new_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EnglishWordsLearning">
+        <activity
+            android:name=".ChooseTableNameActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddNewWordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NewCreateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/splashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/settings_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LearnActivity"
+            android:label="@string/learn_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CreateActivity"
+            android:label="@string/creating_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:rotationAnimation="rotate" />
+    </application>
+
+</manifest>

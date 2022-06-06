@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EnglishWordsLearning</string>
+    <string name="creating_name">Создание словаря</string>
+    <string name="choosing_table">Выбор словаря</string>
+    <string name="learn_name">Изучать слова</string>
+    <string name="settings_name">Настройки</string>
+    <string name="enter_english_word">Введите английское слово:</string>
+    <string name="enter_russian_word">Введите русское слово:</string>
+    <string name="add_word">Добавить слово</string>
+    <string name="delete_word">Удалить слово</string>
+    <string name="reset_all_progress">Сбросить прогресс</string>
+    <string name="back">Назад</string>
+    <string name="choose">Выбрать</string>
+    <string name="chancel">Отмена</string>
+    <string name="target_word">word</string>
+    <string name="choose_count_of_learning_words">Установите количество слов для изучения</string>
+    <string name="choose_count_of_repeat_words">Установите количество повторений слова</string>
+    <string name="choose_type_of_learn_1">Русский - Английский</string>
+    <string name="choose_type_of_learn_2">Английский - Русский</string>
+    <string name="press_one_more_time">Для выхода нажмите ещё раз.</string>
+    <string name="count_of_learned_words_in_current_dictionary">Выучено слов в текущем словаре :</string>
+    <string name="text">Текст</string>
+    <string name="load_from_txt">Загрузить из txt</string>
+    <string name="save_to_txt">Сохранить в txt</string>
+
+    <string-array name="typesOfLearn">
+        <item>Русский - Английский</item>
+        <item>Английский - Русский</item>
+        <item>Случайный порядок</item>
+    </string-array>
+</resources>

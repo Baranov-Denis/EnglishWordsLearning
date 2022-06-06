@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateActivity"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/gray_light_50"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextColor="@color/white" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/gray_light_50"
+        >
+
+        <TextView
+            android:id="@+id/text1"
+            android:text="eng"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/white"
+            android:paddingHorizontal="5dp"
+            android:layout_weight="3"
+            />
+
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:text="rus"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/white"
+            android:paddingHorizontal="5dp"
+            android:layout_weight="3"
+            />
+
+        <TextView
+            android:id="@+id/text3"
+            android:text="ok"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/white"
+            android:paddingHorizontal="10sp"
+            android:layout_weight="4"
+            />
+
+        <TextView
+            android:id="@+id/text4"
+            android:text="nok"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/white"
+            android:paddingHorizontal="10sp"
+            android:layout_weight="4"
+            />
+
+        <TextView
+            android:id="@+id/text5"
+            android:text="now"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/white"
+            android:paddingHorizontal="10sp"
+            android:layout_weight="4"
+            />
+
+
+        <TextView
+            android:id="@+id/text6"
+            android:text="end"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/white"
+            android:paddingHorizontal="10sp"
+            android:layout_weight="4"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="95"
+        android:scrollbars="horizontal"
+        >
+
+
+
+
+        <ListView
+            android:id="@+id/list_of_words"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+        </ListView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/gray_light_50">
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_for_reset_all_progress"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="5dp"
+                android:text="@string/reset_all_progress"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/button_for_delete_word"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="5dp"
+                android:text="@string/delete_word"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/button_for_save_word"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/add_word"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
+

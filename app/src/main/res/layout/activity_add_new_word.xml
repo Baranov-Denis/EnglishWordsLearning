@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewCreateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/yellow_dark"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:background="@color/yellow_dark"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_for_learn_background_left"
+            android:layout_marginVertical="30dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginStart="-10dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/enter_english_word"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edit_text_english_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/black"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_for_learn_background_right"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginVertical="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="-10dp"
+            android:layout_marginEnd="-10dp"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/enter_russian_word"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edit_text_russian_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/black"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginVertical="10dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_for_back_from_add"
+                android:background="@drawable/yellow_button_background"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="@string/chancel"
+                android:textSize="12sp" />
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_for_save_word"
+                android:background="@drawable/yellow_button_background"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="@string/add_word"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
