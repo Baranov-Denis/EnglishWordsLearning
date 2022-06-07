@@ -1,7 +1,7 @@
 package com.example.englishwordslearning.logik;
 
 public class Constants {
-    public static final String EXTERNAL_DATABASE_NAME = "database.db";
+    public static final String EXTERNAL_DATABASE_NAME = "databaseForTest.db";
     public static final String LIST_OF_TABLES_NAMES = "TABLES";
    // public static final String LIST_OF_TABLES_NAMES = "sqlite_sequence";
 
